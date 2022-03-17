@@ -1,0 +1,105 @@
+{
+"origin" "0 0 32"
+"classname" "startpoint"
+"doornumber" "0"
+"level" "level/testmap"
+"targetdoor" "0"
+}
+{
+"origin" "592 -156 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "-611 -246 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "586 1172 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "560 884 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "564 660 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "572 436 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "580 144 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "584 -464 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "584 -716 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "-595 -578 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "-615 134 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "-623 582 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "-615 956 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}
+{
+"origin" "-627 1202 48"
+"classname" "checkpoint"
+"currentpoint" "0"
+"null" "null"
+"targetpoint" "0"
+}

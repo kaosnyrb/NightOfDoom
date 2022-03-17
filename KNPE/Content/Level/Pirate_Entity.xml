@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Asset Type="System.String">startpoint 0 0 32 0 0 level/testmap|checkpoint 592 -156 48 0 0 null|checkpoint -611 -246 48 0 0 null|checkpoint 586 1172 48 0 0 null|checkpoint 560 884 48 0 0 null|checkpoint 564 660 48 0 0 null|checkpoint 572 436 48 0 0 null|checkpoint 580 144 48 0 0 null|checkpoint 584 -464 48 0 0 null|checkpoint 584 -716 48 0 0 null|checkpoint -595 -578 48 0 0 null|checkpoint -615 134 48 0 0 null|checkpoint -623 582 48 0 0 null|checkpoint -615 956 48 0 0 null|checkpoint -627 1202 48 0 0 null|</Asset></XnaContent>

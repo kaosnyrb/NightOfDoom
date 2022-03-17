@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 3538738828;
+    PC Bank Last Modified High = 30034982;
+    Bank Last Revised Low = 3500770078;
+    Bank Last Revised High = 30034982;
+
+    Wave
+    {
+        Name = IonSound;
+        File = IonSound.wav;
+        Build Settings Last Modified Low = 3971703228;
+        Build Settings Last Modified High = 30033582;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 43324;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 250779634;
+            Last Modified High = 30011046;
+        }
+    }
+
+    Wave
+    {
+        Name = Song1;
+        File = Music\Song1.wav;
+        Build Settings Last Modified Low = 487041140;
+        Build Settings Last Modified High = 30033535;
+        Compression Preset Name = Squeezer;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 12603224;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2508414686;
+            Last Modified High = 30033534;
+        }
+    }
+
+    Wave
+    {
+        Name = Song2;
+        File = Music\Song2.wav;
+        Build Settings Last Modified Low = 487041140;
+        Build Settings Last Modified High = 30033535;
+        Compression Preset Name = Squeezer;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 17373336;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2307008436;
+            Last Modified High = 30033534;
+        }
+    }
+
+    Wave
+    {
+        Name = Song3;
+        File = Music\Song3.wav;
+        Build Settings Last Modified Low = 487041140;
+        Build Settings Last Modified High = 30033535;
+        Compression Preset Name = Squeezer;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 24879920;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2775602186;
+            Last Modified High = 30033534;
+        }
+    }
+
+    Wave
+    {
+        Name = ZombieMoan;
+        File = ZombieMoan.wav;
+        Build Settings Last Modified Low = 3936390728;
+        Build Settings Last Modified High = 30033582;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 920272;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3417048410;
+            Last Modified High = 30033540;
+        }
+    }
+
+    Wave
+    {
+        Name = ZombieNom;
+        File = ZombieNom.wav;
+        Build Settings Last Modified Low = 3936390728;
+        Build Settings Last Modified High = 30033582;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 1132016;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3548454660;
+            Last Modified High = 30033540;
+        }
+    }
+
+    Wave
+    {
+        Name = ZombieBrains;
+        File = ZombieBrains.wav;
+        Build Settings Last Modified Low = 3936390728;
+        Build Settings Last Modified High = 30033582;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 757392;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3281579660;
+            Last Modified High = 30033540;
+        }
+    }
+
+    Wave
+    {
+        Name = Woo;
+        File = Woo.wav;
+        Build Settings Last Modified Low = 3807953228;
+        Build Settings Last Modified High = 30033582;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 1275904;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 662015728;
+            Last Modified High = 30033582;
+        }
+    }
+
+    Wave
+    {
+        Name = ChildsLaugh;
+        File = ChildsLaugh.wav;
+        Build Settings Last Modified Low = 3808109478;
+        Build Settings Last Modified High = 30033582;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 1288192;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 993421978;
+            Last Modified High = 30033582;
+        }
+    }
+
+    Wave
+    {
+        Name = ChildsSong;
+        File = ChildsSong.wav;
+        Build Settings Last Modified Low = 3808109478;
+        Build Settings Last Modified High = 30033582;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 2347008;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1502484478;
+            Last Modified High = 30033582;
+        }
+    }
+
+    Wave
+    {
+        Name = Mutterings;
+        File = Mutterings.wav;
+        Build Settings Last Modified Low = 3808109478;
+        Build Settings Last Modified High = 30033582;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 2150400;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2249671978;
+            Last Modified High = 30033582;
+        }
+    }
+
+    Wave
+    {
+        Name = fletcher_02;
+        File = fletcher_02.wav;
+        Build Settings Last Modified Low = 1421252129;
+        Build Settings Last Modified High = 30033962;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 101630;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1499617792;
+            Last Modified High = 30005798;
+        }
+    }
+
+    Wave
+    {
+        Name = Explo2;
+        File = Explo2.wav;
+        Build Settings Last Modified Low = 3096553907;
+        Build Settings Last Modified High = 30033962;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 698368;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1499617792;
+            Last Modified High = 30005798;
+        }
+    }
+
+    Wave
+    {
+        Name = UI_Clicks20;
+        File = UI_Clicks20.wav;
+        Build Settings Last Modified Low = 1710484676;
+        Build Settings Last Modified High = 30033965;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 12032;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1499617792;
+            Last Modified High = 30005798;
+        }
+    }
+
+    Wave
+    {
+        Name = reload;
+        File = reload.wav;
+        Build Settings Last Modified Low = 3172110920;
+        Build Settings Last Modified High = 30034980;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 46;
+            Play Region Length = 85248;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1499617792;
+            Last Modified High = 30005798;
+        }
+    }
+
+    Wave
+    {
+        Name = Whoosh0;
+        File = Whoosh0.wav;
+        Build Settings Last Modified Low = 3194610920;
+        Build Settings Last Modified High = 30034980;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 22050;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 48126;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1499617792;
+            Last Modified High = 30005798;
+        }
+    }
+
+    Wave
+    {
+        Name = WizardPower;
+        File = WizardPower.wav;
+        Build Settings Last Modified Low = 3203582578;
+        Build Settings Last Modified High = 30034982;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 626688;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1603081124;
+            Last Modified High = 30034981;
+        }
+    }
+
+    Wave
+    {
+        Name = WizardShun;
+        File = WizardShun.wav;
+        Build Settings Last Modified Low = 3203582578;
+        Build Settings Last Modified High = 30034982;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 733184;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3661987374;
+            Last Modified High = 30034981;
+        }
+    }
+
+    Wave
+    {
+        Name = PirateYar;
+        File = PirateYar.wav;
+        Build Settings Last Modified Low = 3241707578;
+        Build Settings Last Modified High = 30034982;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 366592;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1864363828;
+            Last Modified High = 30034982;
+        }
+    }
+
+    Wave
+    {
+        Name = PirateLandLubber;
+        File = PirateLandLubber.wav;
+        Build Settings Last Modified Low = 3241707578;
+        Build Settings Last Modified High = 30034982;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 630784;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2230926328;
+            Last Modified High = 30034982;
+        }
+    }
+
+    Wave
+    {
+        Name = PirateDavyJones;
+        File = PirateDavyJones.wav;
+        Build Settings Last Modified Low = 3241707578;
+        Build Settings Last Modified High = 30034982;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 815104;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2562801328;
+            Last Modified High = 30034982;
+        }
+    }
+
+    Wave
+    {
+        Name = PirateFood;
+        File = PirateFood.wav;
+        Build Settings Last Modified Low = 3241707578;
+        Build Settings Last Modified High = 30034982;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 630784;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2987645078;
+            Last Modified High = 30034982;
+        }
+    }
+
+    Wave
+    {
+        Name = WizardSac;
+        File = WizardSac.wav;
+        Build Settings Last Modified Low = 3203582578;
+        Build Settings Last Modified High = 30034982;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 704512;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 187924874;
+            Last Modified High = 30034981;
+        }
+    }
+
+    Wave
+    {
+        Name = WizardBlood;
+        File = WizardBlood.wav;
+        Build Settings Last Modified Low = 3203582578;
+        Build Settings Last Modified High = 30034982;
+        Compression Preset Name = General;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 651264;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1227143624;
+            Last Modified High = 30034981;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

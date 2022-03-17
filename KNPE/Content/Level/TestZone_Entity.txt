@@ -1,0 +1,7 @@
+{
+"origin" "5728 -4512 3649"
+"classname" "startpoint"
+"doornumber" "0"
+"level" "level/testmap"
+"targetdoor" "0"
+}

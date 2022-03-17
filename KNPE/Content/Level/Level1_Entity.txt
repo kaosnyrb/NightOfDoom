@@ -1,0 +1,21 @@
+{
+"origin" "-96 -887 -432"
+"classname" "startpoint"
+"doornumber" "0"
+"level" "level/testmap"
+"targetdoor" "0"
+}
+{
+"origin" "331 955 -344"
+"classname" "creeper"
+"range" "1000"
+"level" "level/testmap"
+"targetdoor" "0"
+}
+{
+"origin" "132 396 -408"
+"classname" "door"
+"doornumber" "0"
+"level" "level/level2"
+"targetdoor" "0"
+}

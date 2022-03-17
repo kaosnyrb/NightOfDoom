@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Asset Type="System.String">hoverblaster 627 -1123 193 1000 0 level/testmap|hoverblaster 893 -719 193 1000 0 level/testmap|hoverblaster 627 -719 193 1000 0 level/testmap|hoverblaster 627 -1796 193 1000 0 level/testmap|hoverblaster 760 -1661 193 1000 0 level/testmap|startpoint 1561 -1123 193 0 0 level/testmap|door 458 -1056 696 0 0 level/level6|scanner -174 -1261 512 1000 0 level/testmap|creeper -398 -921 696 1000 0 level/testmap|creeper -509 -1049 696 1000 0 level/testmap|</Asset></XnaContent>

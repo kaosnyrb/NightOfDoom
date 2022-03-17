@@ -1,0 +1,2 @@
+D:\KNPE\KNPE\Content\obj\Xbox 360\Release\ResolveAssemblyReference.cache
+D:\KNPE\KNPE\Content\obj\Xbox 360\Release\audio.xml

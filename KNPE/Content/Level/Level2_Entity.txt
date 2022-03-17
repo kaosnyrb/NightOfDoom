@@ -1,0 +1,49 @@
+{
+"origin" "-744 -456 128"
+"classname" "creeper"
+"range" "1000"
+"level" "level/testmap"
+"targetdoor" "0"
+}
+{
+"origin" "-4 -452 -184"
+"classname" "startpoint"
+"doornumber" "0"
+"level" "level/testmap"
+"targetdoor" "0"
+}
+{
+"origin" "-792 1428 144"
+"classname" "scanner"
+"range" "1000"
+"level" "level/testmap"
+"targetdoor" "0"
+}
+{
+"origin" "-1324 1956 144"
+"classname" "creeper"
+"range" "1000"
+"level" "level/testmap"
+"targetdoor" "0"
+}
+{
+"origin" "-512 1976 144"
+"classname" "creeper"
+"range" "1000"
+"level" "level/testmap"
+"targetdoor" "0"
+}
+{
+"origin" "-956 1892 144"
+"classname" "creeper"
+"range" "1000"
+"level" "level/testmap"
+"targetdoor" "0"
+}
+{
+"origin" "-704 1998 88"
+"classname" "door"
+"doornumber" "0"
+"level" "level/level3"
+"targetdoor" "0"
+}

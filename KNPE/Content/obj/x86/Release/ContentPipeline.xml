@@ -1,0 +1,2057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Graphics="Microsoft.Xna.Framework.Graphics" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Arial.spritefont</Source>
+      <Name>Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Arial.xnb</Output>
+      <Time>2009-09-07T14:41:09.7468873+01:00</Time>
+    </Item>
+    <Item>
+      <Source>vectorLineRenderer.fx</Source>
+      <Name>vectorLineRenderer</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\vectorLineRenderer.xnb</Output>
+      <Time>2008-06-25T00:36:00+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Shader.fx</Source>
+      <Name>Shader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Shader.xnb</Output>
+      <Time>2009-09-12T18:47:49.9375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Shaders\Phong.fx</Source>
+      <Name>Shaders\Phong</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Shaders\Phong.xnb</Output>
+      <Time>2008-05-01T01:50:50+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Shaders\Water.fx</Source>
+      <Name>Shaders\Water</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Shaders\Water.xnb</Output>
+      <Time>2009-08-19T15:33:01.671875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>BloomCombine.fx</Source>
+      <Name>BloomCombine</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\BloomCombine.xnb</Output>
+      <Time>2007-11-26T11:32:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>BloomExtract.fx</Source>
+      <Name>BloomExtract</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\BloomExtract.xnb</Output>
+      <Time>2007-11-26T11:32:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>GaussianBlur.fx</Source>
+      <Name>GaussianBlur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\GaussianBlur.xnb</Output>
+      <Time>2007-11-26T11:32:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>TestPlayer.x</Source>
+      <Name>TestPlayer</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.02</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\TestPlayer.xnb</Output>
+      <Time>2009-09-10T00:26:57.9375+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\TestPlayer_0.xml</Key>
+        <Value>2009-10-01T13:43:11.123043+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\metalbare0019_s_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\testconcrete_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\Level1.x</Source>
+      <Name>Level\Level1</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Level1.xnb</Output>
+      <Time>2009-09-30T14:48:27.328125+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Level\Level1_0.xml</Key>
+        <Value>2009-10-01T13:43:12.2636826+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\scifi_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\portal_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\ajump_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\shootem_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\Level2.x</Source>
+      <Name>Level\Level2</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Level2.xnb</Output>
+      <Time>2009-10-02T01:03:53.0438758+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Level\Level2_0.xml</Key>
+        <Value>2009-10-02T01:07:52.5282508+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\scifi_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\block_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\portal_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Enemy1.x</Source>
+      <Name>Enemy1</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.2</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Enemy1.xnb</Output>
+      <Time>2009-09-19T12:10:17.59375+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Enemy1_0.xml</Key>
+        <Value>2009-10-01T13:43:13.544949+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\evil_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Scanner.x</Source>
+      <Name>Scanner</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.25</Data>
+        <Data Key="ColorKeyColor">0, 0, 0, 0</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Scanner.xnb</Output>
+      <Time>2009-09-22T16:36:34.84375+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Scanner_0.xml</Key>
+        <Value>2009-10-01T13:43:14.0449554+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\evil_1.xnb</Request>
+    </Item>
+    <Item>
+      <Source>EvilBullet.x</Source>
+      <Name>EvilBullet</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.1</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\EvilBullet.xnb</Output>
+      <Time>2009-09-22T17:05:04.4375+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\EvilBullet_0.xml</Key>
+        <Value>2009-10-01T13:43:14.2637082+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\evil_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\TestZone.x</Source>
+      <Name>Level\TestZone</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\TestZone.xnb</Output>
+      <Time>2009-10-04T06:59:23.796875+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Level\TestZone_0.xml</Key>
+        <Value>2009-10-04T06:59:44.1875+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\windows_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\scifi_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>HoverBlaster.x</Source>
+      <Name>HoverBlaster</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.3</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\HoverBlaster.xnb</Output>
+      <Time>2009-09-25T17:03:16.703125+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\HoverBlaster_0.xml</Key>
+        <Value>2009-10-01T13:43:14.7012138+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\evil_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\Level3.x</Source>
+      <Name>Level\Level3</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Level3.xnb</Output>
+      <Time>2009-10-02T01:05:16.4501258+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Level\Level3_0.xml</Key>
+        <Value>2009-10-02T01:07:53.1845008+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\scifi_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\evil_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\portal_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\Level4.x</Source>
+      <Name>Level\Level4</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Level4.xnb</Output>
+      <Time>2009-10-02T01:06:05.9345008+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Level\Level4_0.xml</Key>
+        <Value>2009-10-02T01:07:54.1063758+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\grass_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\evil_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\blue_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\wall_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\green_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\box_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\white_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\portal_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>DoorIcon.bmp</Source>
+      <Name>DoorIcon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\DoorIcon.xnb</Output>
+      <Time>2009-09-11T14:00:26.3125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\wave0.dds</Source>
+      <Name>Textures\wave0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Textures\wave0.xnb</Output>
+      <Time>2008-05-01T01:50:50+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\wave1.dds</Source>
+      <Name>Textures\wave1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Textures\wave1.xnb</Output>
+      <Time>2008-05-01T01:50:50+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\whitetex.dds</Source>
+      <Name>Textures\whitetex</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Textures\whitetex.xnb</Output>
+      <Time>2008-05-01T01:50:50+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Splash.jpg</Source>
+      <Name>Textures\Splash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Textures\Splash.xnb</Output>
+      <Time>2009-05-17T17:04:56.078125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>HarmlessBot.bmp</Source>
+      <Name>HarmlessBot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\HarmlessBot.xnb</Output>
+      <Time>2009-09-22T14:43:41.875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>xboxControllerButtonA.tga</Source>
+      <Name>xboxControllerButtonA</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\xboxControllerButtonA.xnb</Output>
+      <Time>2007-09-25T14:24:00+01:00</Time>
+    </Item>
+    <Item>
+      <Source>xboxControllerButtonB.tga</Source>
+      <Name>xboxControllerButtonB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\xboxControllerButtonB.xnb</Output>
+      <Time>2007-09-25T14:24:00+01:00</Time>
+    </Item>
+    <Item>
+      <Source>xboxControllerButtonX.tga</Source>
+      <Name>xboxControllerButtonX</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\xboxControllerButtonX.xnb</Output>
+      <Time>2007-09-25T14:24:00+01:00</Time>
+    </Item>
+    <Item>
+      <Source>xboxControllerButtonY.tga</Source>
+      <Name>xboxControllerButtonY</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\xboxControllerButtonY.xnb</Output>
+      <Time>2009-09-17T16:52:48.25+01:00</Time>
+    </Item>
+    <Item>
+      <Source>good.bmp</Source>
+      <Name>good</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\good.xnb</Output>
+      <Time>2009-09-21T08:20:15.859375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Evilsprite.bmp</Source>
+      <Name>Evilsprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Evilsprite.xnb</Output>
+      <Time>2009-09-21T08:22:38.390625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>satchi.bmp</Source>
+      <Name>satchi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\satchi.xnb</Output>
+      <Time>2009-09-22T14:43:17.84375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level1_Entity.xml</Source>
+      <Name>Level\Level1_Entity</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Level1_Entity.xnb</Output>
+      <Time>2009-09-30T14:49:25.828125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2_Entity.xml</Source>
+      <Name>Level\Level2_Entity</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Level2_Entity.xnb</Output>
+      <Time>2009-10-02T01:04:26.0595008+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\TestZone_Entity.xml</Source>
+      <Name>Level\TestZone_Entity</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\TestZone_Entity.xnb</Output>
+      <Time>2009-09-25T16:55:30.84375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level3_Entity.xml</Source>
+      <Name>Level\Level3_Entity</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Level3_Entity.xnb</Output>
+      <Time>2009-09-25T18:31:03.421875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level4_Entity.xml</Source>
+      <Name>Level\Level4_Entity</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Level4_Entity.xnb</Output>
+      <Time>2009-09-30T14:45:02.109375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>TestPlayer.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\TestPlayer_0.xml</Output>
+      <Time>2009-09-10T00:26:57.9375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>metalbare0019_s.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\metalbare0019_s_0.xnb</Output>
+      <Time>2009-06-03T17:38:56.203125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>testconcrete.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\testconcrete_0.xnb</Output>
+      <Time>2009-09-03T18:17:57.09375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level1.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Level\Level1_0.xml</Output>
+      <Time>2009-09-30T14:48:27.328125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\scifi.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\scifi_0.xnb</Output>
+      <Time>2009-09-16T23:06:12.5+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\portal.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\portal_0.xnb</Output>
+      <Time>2009-09-17T16:43:03.40625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\ajump.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\ajump_0.xnb</Output>
+      <Time>2009-09-19T14:08:47.859375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\shootem.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\shootem_0.xnb</Output>
+      <Time>2009-09-19T19:09:54+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level2.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Level\Level2_0.xml</Output>
+      <Time>2009-10-02T01:03:53.0438758+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\block.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\block_0.xnb</Output>
+      <Time>2009-09-17T16:39:43.03125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy1.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Enemy1_0.xml</Output>
+      <Time>2009-09-19T12:10:17.59375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>evil.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\evil_0.xnb</Output>
+      <Time>2009-09-19T12:07:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bullet.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Bullet_0.xml</Output>
+      <Time>2009-10-08T16:12:09.5419816+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Scanner.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Scanner_0.xml</Output>
+      <Time>2009-09-22T16:36:34.84375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>evil.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">00000000</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\evil_1.xnb</Output>
+      <Time>2009-09-19T12:07:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>EvilBullet.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\EvilBullet_0.xml</Output>
+      <Time>2009-09-22T17:05:04.4375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\TestZone.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Level\TestZone_0.xml</Output>
+      <Time>2009-10-04T06:59:23.796875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Creeper.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Creeper_0.xml</Output>
+      <Time>2009-09-24T17:20:18.1549312+01:00</Time>
+    </Item>
+    <Item>
+      <Source>HoverBlaster.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\HoverBlaster_0.xml</Output>
+      <Time>2009-09-25T17:03:16.703125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level3.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Level\Level3_0.xml</Output>
+      <Time>2009-10-02T01:05:16.4501258+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\evil.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\evil_0.xnb</Output>
+      <Time>2009-09-19T12:07:06+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level4.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Level\Level4_0.xml</Output>
+      <Time>2009-10-02T01:06:05.9345008+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\grass.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\grass_0.xnb</Output>
+      <Time>2009-09-29T14:34:47.859375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\blue.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\blue_0.xnb</Output>
+      <Time>2009-09-30T14:08:23.390625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\wall.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\wall_0.xnb</Output>
+      <Time>2009-09-29T14:40:05.140625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\green.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\green_0.xnb</Output>
+      <Time>2009-09-30T14:11:58.5625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\box.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\box_0.xnb</Output>
+      <Time>2009-09-29T14:37:40.71875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\white.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\white_0.xnb</Output>
+      <Time>2009-09-30T14:08:31.875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bullet.x</Source>
+      <Name>Bullet</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="RotationY">180</Data>
+        <Data Key="Scale">0.03</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Bullet.xnb</Output>
+      <Time>2009-10-08T16:12:09.5419816+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Bullet_0.xml</Key>
+        <Value>2009-10-08T16:12:29.010607+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\scratcheddarkboards_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\Level5.x</Source>
+      <Name>Level\Level5</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Level5.xnb</Output>
+      <Time>2009-10-02T20:14:54.15625+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Level\Level5_0.xml</Key>
+        <Value>2009-10-02T20:27:58.078125+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\roof_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\evil_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\medwall_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\twin lancets_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\granitewall_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\grass_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\rose complex_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\door_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\pyrobora_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\scratcheddarkboards_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\portal_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\Level5_Entity.xml</Source>
+      <Name>Level\Level5_Entity</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Level5_Entity.xnb</Output>
+      <Time>2009-10-02T20:36:32.78125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Level5.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Level\Level5_0.xml</Output>
+      <Time>2009-10-02T20:14:54.15625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\roof.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\roof_0.xnb</Output>
+      <Time>2009-10-01T16:55:24.2782508+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\rose complex.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\rose complex_0.xnb</Output>
+      <Time>2009-10-01T16:55:58.0595008+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\door.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\door_0.xnb</Output>
+      <Time>2009-10-01T17:04:58.4813758+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\twin lancets.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\twin lancets_0.xnb</Output>
+      <Time>2009-10-01T16:55:44.7938758+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\granitewall.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\granitewall_0.xnb</Output>
+      <Time>2009-09-11T15:10:20.078125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\medwall.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\medwall_0.xnb</Output>
+      <Time>2009-10-01T16:55:50.6845008+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\pyrobora.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\pyrobora_0.xnb</Output>
+      <Time>2009-10-01T17:15:45.6063758+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\scratcheddarkboards.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\scratcheddarkboards_0.xnb</Output>
+      <Time>2009-09-11T15:15:02.578125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SciFi.jpg</Source>
+      <Name>SciFi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\SciFi.xnb</Output>
+      <Time>2009-09-16T23:13:57.234375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>DoomLaser.bmp</Source>
+      <Name>DoomLaser</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\DoomLaser.xnb</Output>
+      <Time>2009-10-02T23:44:10.328125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\windows.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\windows_0.xnb</Output>
+      <Time>2009-10-04T06:52:41.5625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Zombie.x</Source>
+      <Name>Level\Zombie</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Zombie.xnb</Output>
+      <Time>2009-10-14T14:20:23.46875+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Level\Zombie_0.xml</Key>
+        <Value>2009-10-14T14:29:53.15625+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\medwall_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\door_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\roof_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\dirtyconcrete_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\ground_grass_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\twin lancets_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\treeline_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\skynight_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\evilmoon_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\Zombie_Entity.xml</Source>
+      <Name>Level\Zombie_Entity</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Zombie_Entity.xnb</Output>
+      <Time>2009-10-14T14:12:19.515625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Zombie.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Level\Zombie_0.xml</Output>
+      <Time>2009-10-14T14:20:23.46875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\ground_grass.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\ground_grass_0.xnb</Output>
+      <Time>2009-03-30T20:56:43.984375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Zombie_0.xml</Output>
+      <Time>2009-10-06T11:21:11.296875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\C46E0C5A\Zombie.fbm\skdiff2.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C46E0C5A\Zombie.fbm\skdiff2_0.xnb</Output>
+      <Time>2009-10-08T18:16:37.3063544+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie.FBX</Source>
+      <Name>Zombie</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.08</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Zombie.xnb</Output>
+      <Time>2009-10-06T11:21:11.296875+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Zombie_0.xml</Key>
+        <Value>2009-10-08T18:16:37.4469794+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C46E0C5A\Zombie.fbm\skdiff2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\dirtyconcrete.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\dirtyconcrete_0.xnb</Output>
+      <Time>2009-09-11T15:10:17.671875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\skynight.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\skynight_0.xnb</Output>
+      <Time>2009-10-06T12:57:26.71875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>CreeperFont.spritefont</Source>
+      <Name>CreeperFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\CreeperFont.xnb</Output>
+      <Time>2009-10-06T14:28:15.3125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Creeper.x</Source>
+      <Name>Creeper</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.2</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Creeper.xnb</Output>
+      <Time>2009-09-24T17:20:18.1549312+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Creeper_0.xml</Key>
+        <Value>2009-10-01T13:43:14.5449618+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\evil_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Textures\Titlepage.jpg</Source>
+      <Name>Textures\Titlepage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Textures\Titlepage.xnb</Output>
+      <Time>2009-10-06T15:14:20.90625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Egg.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Egg_0.xml</Output>
+      <Time>2009-10-06T16:00:17+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Egg.FBX</Source>
+      <Name>Egg</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.25</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Egg.xnb</Output>
+      <Time>2009-10-06T16:00:17+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Egg_0.xml</Key>
+        <Value>2009-10-06T16:00:31.96875+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Textures\eggsprite.bmp</Source>
+      <Name>Textures\eggsprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Textures\eggsprite.xnb</Output>
+      <Time>2009-10-08T16:06:48.6864478+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Gun.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Gun_0.xml</Output>
+      <Time>2009-10-06T16:11:05.25+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\9FC10B1E\Gun.fbm\Eggmatic.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\9FC10B1E\Gun.fbm\Eggmatic_0.xnb</Output>
+      <Time>2009-10-06T16:11:51+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Gun.FBX</Source>
+      <Name>Gun</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.2</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Gun.xnb</Output>
+      <Time>2009-10-06T16:11:05.25+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Gun_0.xml</Key>
+        <Value>2009-10-06T16:11:51.109375+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\9FC10B1E\Gun.fbm\Eggmatic_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>MiniSkull.bmp</Source>
+      <Name>MiniSkull</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\MiniSkull.xnb</Output>
+      <Time>2009-10-06T18:22:11.78125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Advert.jpg</Source>
+      <Name>Advert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Advert.xnb</Output>
+      <Time>2009-10-06T18:43:52.15625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Crosshair.bmp</Source>
+      <Name>Crosshair</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Crosshair.xnb</Output>
+      <Time>2009-10-06T19:28:40.296875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\treeline.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\treeline_0.xnb</Output>
+      <Time>2009-10-08T12:09:29.4375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nade.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Nade_0.xml</Output>
+      <Time>2009-10-08T13:09:30.8728672+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\AADA0B6C\Nade.fbm\mk_d.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\AADA0B6C\Nade.fbm\mk_d_0.xnb</Output>
+      <Time>2009-10-08T13:10:18.5095285+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ExplodeFire.bmp</Source>
+      <Name>ExplodeFire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\ExplodeFire.xnb</Output>
+      <Time>2009-10-08T13:40:26.0399638+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nade.FBX</Source>
+      <Name>Nade</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="RotationX">-90</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Nade.xnb</Output>
+      <Time>2009-10-08T13:09:30.8728672+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Nade_0.xml</Key>
+        <Value>2009-10-08T13:10:18.6345181+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\AADA0B6C\Nade.fbm\mk_d_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Healthbox.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Healthbox_0.xml</Output>
+      <Time>2009-10-08T13:49:49.4954884+01:00</Time>
+    </Item>
+    <Item>
+      <Source>healthbox.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\healthbox_0.xnb</Output>
+      <Time>2009-10-08T13:48:44.4519438+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Nadebox.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Nadebox_0.xml</Output>
+      <Time>2009-10-08T13:49:30.402716+01:00</Time>
+    </Item>
+    <Item>
+      <Source>nadebox.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\nadebox_0.xnb</Output>
+      <Time>2009-10-08T13:48:18.5001476+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Healthbox.x</Source>
+      <Name>Healthbox</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.1</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Healthbox.xnb</Output>
+      <Time>2009-10-08T13:49:49.4954884+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Healthbox_0.xml</Key>
+        <Value>2009-10-08T13:50:42.664641+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\healthbox_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Nadebox.x</Source>
+      <Name>Nadebox</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.1</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Nadebox.xnb</Output>
+      <Time>2009-10-08T13:49:30.402716+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Nadebox_0.xml</Key>
+        <Value>2009-10-08T13:50:42.8521314+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\nadebox_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Textures\NadeTex.bmp</Source>
+      <Name>Textures\NadeTex</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Textures\NadeTex.xnb</Output>
+      <Time>2009-10-08T14:14:02.4917112+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Healthbar.bmp</Source>
+      <Name>Textures\Healthbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Textures\Healthbar.xnb</Output>
+      <Time>2009-10-08T14:35:11.1484671+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\HealthBack.bmp</Source>
+      <Name>Textures\HealthBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Textures\HealthBack.xnb</Output>
+      <Time>2009-10-08T15:54:35.3052102+01:00</Time>
+    </Item>
+    <Item>
+      <Source>scratcheddarkboards.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\scratcheddarkboards_0.xnb</Output>
+      <Time>2009-09-11T15:15:02.578125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\paused.jpg</Source>
+      <Name>Textures\paused</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Textures\paused.xnb</Output>
+      <Time>2009-10-08T16:31:48.5813107+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MiniZombie.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\MiniZombie_0.xml</Output>
+      <Time>2009-10-06T11:21:11.296875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>TimeBonus.x</Source>
+      <Name>TimeBonus</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.1</Data>
+        <Data Key="ColorKeyEnabled">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\TimeBonus.xnb</Output>
+      <Time>2009-10-08T18:31:28.7751044+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\TimeBonus_0.xml</Key>
+        <Value>2009-10-08T18:37:08.7751044+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\clock_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>TimeBonus.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\TimeBonus_0.xml</Output>
+      <Time>2009-10-08T18:31:28.7751044+01:00</Time>
+    </Item>
+    <Item>
+      <Source>clock.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">false</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\clock_0.xnb</Output>
+      <Time>2009-10-08T18:28:08.6501044+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Boss.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Boss_0.xml</Output>
+      <Time>2009-10-08T20:47:43.5876044+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Head.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Head_0.xml</Output>
+      <Time>2009-10-08T19:33:24.0407294+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\AAAF0B66\Head.fbm\skdiff2.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\AAAF0B66\Head.fbm\skdiff2_0.xnb</Output>
+      <Time>2009-10-08T19:33:42.7751044+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Head.FBX</Source>
+      <Name>Head</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.2</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Head.xnb</Output>
+      <Time>2009-10-08T19:33:24.0407294+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Head_0.xml</Key>
+        <Value>2009-10-08T19:33:42.8532294+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\AAAF0B66\Head.fbm\skdiff2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\AB7C0B8B\Boss.fbm\gimpy_diffuse.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\AB7C0B8B\Boss.fbm\gimpy_diffuse_0.xnb</Output>
+      <Time>2009-10-08T20:47:57.4313544+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Boss.FBX</Source>
+      <Name>Boss</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">250</Data>
+        <Data Key="RotationX">180</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Boss.xnb</Output>
+      <Time>2009-10-08T20:47:43.5876044+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Boss_0.xml</Key>
+        <Value>2009-10-08T20:47:57.7126044+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\AB7C0B8B\Boss.fbm\gimpy_diffuse_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\Temple_Entity.xml</Source>
+      <Name>Level\Temple_Entity</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Temple_Entity.xnb</Output>
+      <Time>2009-10-10T17:55:06.890625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Temple.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Level\Temple_0.xml</Output>
+      <Time>2009-10-12T14:08:40.75+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Unlock.jpg</Source>
+      <Name>Unlock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Unlock.xnb</Output>
+      <Time>2009-10-12T14:45:51.953125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Pirate_Entity.xml</Source>
+      <Name>Level\Pirate_Entity</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Pirate_Entity.xnb</Output>
+      <Time>2009-10-14T14:11:55.59375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Pirate.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Level\Pirate_0.xml</Output>
+      <Time>2009-10-14T14:36:02.3125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Howtoplay.jpg</Source>
+      <Name>Howtoplay</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Howtoplay.xnb</Output>
+      <Time>2009-10-12T21:03:44.25+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pirate.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Pirate_0.xml</Output>
+      <Time>2009-10-13T15:34:05.828125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\C4370C59\Pirate.fbm\barbar.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4370C59\Pirate.fbm\barbar_0.xnb</Output>
+      <Time>2009-10-13T15:34:19.71875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Wizard.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Wizard_0.xml</Output>
+      <Time>2009-10-13T17:31:47.484375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Wizard.FBX</Source>
+      <Name>Wizard</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.12</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Wizard.xnb</Output>
+      <Time>2009-10-13T17:31:47.484375+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Wizard_0.xml</Key>
+        <Value>2009-10-13T17:32:00.578125+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Coif_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Face_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Cloak_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\S Pad_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Belt_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Front_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Eye_1.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Pirate.FBX</Source>
+      <Name>Pirate</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.25</Data>
+        <Data Key="RotationX">-90</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Pirate.xnb</Output>
+      <Time>2009-10-13T15:34:05.828125+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Pirate_0.xml</Key>
+        <Value>2009-10-13T15:34:19.90625+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4370C59\Pirate.fbm\barbar_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>MiniZombie.FBX</Source>
+      <Name>MiniZombie</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.06</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\MiniZombie.xnb</Output>
+      <Time>2009-10-06T11:21:11.296875+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\MiniZombie_0.xml</Key>
+        <Value>2009-10-13T15:58:51.140625+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\FAFC0E07\MiniZombie.fbm\skdiff2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\FAFC0E07\MiniZombie.fbm\skdiff2.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\FAFC0E07\MiniZombie.fbm\skdiff2_0.xnb</Output>
+      <Time>2009-10-13T15:58:51+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\C4AC0C65\Wizard.fbm\Coif.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Coif_1.xnb</Output>
+      <Time>2009-10-13T17:32:00.171875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\C4AC0C65\Wizard.fbm\Face.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Face_1.xnb</Output>
+      <Time>2009-10-13T17:32:00.1875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\C4AC0C65\Wizard.fbm\Cloak.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Cloak_1.xnb</Output>
+      <Time>2009-10-13T17:32:00.21875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\C4AC0C65\Wizard.fbm\S Pad.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\S Pad_1.xnb</Output>
+      <Time>2009-10-13T17:32:00.25+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\C4AC0C65\Wizard.fbm\Belt.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Belt_1.xnb</Output>
+      <Time>2009-10-13T17:32:00.25+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\C4AC0C65\Wizard.fbm\Front.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Front_1.xnb</Output>
+      <Time>2009-10-13T17:32:00.25+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Release\FBX\C4AC0C65\Wizard.fbm\Eye.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\FBX\C4AC0C65\Wizard.fbm\Eye_1.xnb</Output>
+      <Time>2009-10-13T17:32:00.25+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Pirate.x</Source>
+      <Name>Level\Pirate</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Pirate.xnb</Output>
+      <Time>2009-10-14T14:36:02.3125+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Level\Pirate_0.xml</Key>
+        <Value>2009-10-14T14:36:06.796875+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\evilmoon_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\skynight_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\scratchedboards_0.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\white_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\wooddoor_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\rose complex_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\water4_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\africanebonyboards_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\evilmoon.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\evilmoon_1.xnb</Output>
+      <Time>2009-10-06T12:59:05.578125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\skynight.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\skynight_1.xnb</Output>
+      <Time>2009-10-06T12:57:26.71875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\white.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\white_1.xnb</Output>
+      <Time>2009-09-30T14:08:31.875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\water4.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\water4_1.xnb</Output>
+      <Time>2009-10-12T14:27:19.09375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\wooddoor.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\wooddoor_1.xnb</Output>
+      <Time>2009-10-12T14:32:02.34375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\Temple.x</Source>
+      <Name>Level\Temple</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\Temple.xnb</Output>
+      <Time>2009-10-12T14:08:40.75+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Level\Temple_0.xml</Key>
+        <Value>2009-10-12T14:47:11.34375+01:00</Value>
+      </Dependency>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\ancienttemplewall_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\ancientmayanblocks_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\ancienttemplemotif_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\evilmoon_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\skynight_1.xnb</Request>
+      <Request>D:\KNPE\KNPE\bin\x86\Release\Content\Level\aztecsunstone_1.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Level\ancienttemplewall.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\ancienttemplewall_1.xnb</Output>
+      <Time>2009-09-11T15:08:34.640625+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\ancientmayanblocks.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\ancientmayanblocks_1.xnb</Output>
+      <Time>2009-09-11T15:00:58.796875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\ancienttemplemotif.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\ancienttemplemotif_1.xnb</Output>
+      <Time>2009-10-12T14:01:31.046875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\aztecsunstone.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\aztecsunstone_1.xnb</Output>
+      <Time>2009-10-12T14:05:32.171875+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\scratchedboards.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\scratchedboards_0.xnb</Output>
+      <Time>2009-09-11T15:15:00.4375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\rose complex.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\rose complex_1.xnb</Output>
+      <Time>2009-10-01T16:55:58.0595008+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\africanebonyboards.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFFFFFF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\africanebonyboards_0.xnb</Output>
+      <Time>2009-09-11T15:13:43.484375+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Level\evilmoon.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\KNPE\KNPE\bin\x86\Release\Content\Level\evilmoon_0.xnb</Output>
+      <Time>2009-10-06T12:59:05.578125+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>D:\KNPE\KNPE\Content\</RootDirectory>
+      <LoggerRootDirectory>D:\KNPE\KNPE\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\KNPE\KNPE\Content\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>D:\KNPE\KNPE\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T00:16:14+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T00:16:06+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T00:16:16+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T00:16:26+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T00:16:12+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T00:16:06+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2009-06-11T17:37:47.90625+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

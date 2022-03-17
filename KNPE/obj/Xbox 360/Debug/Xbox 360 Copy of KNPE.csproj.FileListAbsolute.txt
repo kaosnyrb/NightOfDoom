@@ -1,0 +1,2 @@
+D:\KNPE\KNPE\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+D:\KNPE\KNPE\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
